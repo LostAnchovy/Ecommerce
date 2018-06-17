@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from "./Home"
 import About from "./About"
 import Contact from "./Contact"
 import Mainbody from "./Mainbody"
+import Carosuel from "./Carosuel"
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 class Header extends Component {
@@ -18,17 +18,21 @@ class Header extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="basicExampleNav">
                             <ul className="navbar-nav mr-auto">
-                                <Link to="/"> <li className="nav-item active">
+                                <Link to="/"> <li className="nav-item ">
                                     <a className="nav-link" href="#">Home
                             <span className="sr-only">(current)</span>
                                     </a>
                                 </li></Link>
                                 <Link to="/about"><li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
+                                    <a className="nav-link" href="#">Merchandise</a>
                                 </li></Link>
                                 <Link to="/Contact"><li className="nav-item">
                                     <a className="nav-link" href="#">Contact</a>
                                 </li></Link>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Login | Register</a>
+                                </li>
+                                
                             </ul>
                         </div>
                     </nav>
