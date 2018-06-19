@@ -4,7 +4,7 @@ import { Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
 class EventCard extends Component {
     render() {
         return (
-            <Card className="col-md-4">
+            <Card className="col-md-4 p-0">
                 <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" />
                 <CardBody>
                     <CardTitle className="text-center">Event Name</CardTitle>
