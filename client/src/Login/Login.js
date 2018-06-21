@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Form, FormControl, FormGroup, ControlLabel, Col, Button, Checkbox } from 'react-bootstrap';
 
 // https://react-bootstrap.github.io/components/forms/
+// need to go in and change things for functionality and aesthetics
 class Login extends Component {
     state = {
         email: '',

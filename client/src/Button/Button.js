@@ -2,7 +2,7 @@ import React from 'react';
 
 const butt = () => {
     return (
-        <div className="row text-center p-4">
+        <div className="row text-center m-auto p-4">
             <div className="col-md-4">
                 <button className="btn btn-primary">Participaton List</button>
             </div>

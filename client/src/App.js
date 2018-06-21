@@ -7,6 +7,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Login from "./Login/Login"
 import Register from "./Register/Register";
+import EventPage from "./EventPage/EventPage";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
               <Route path='/about' component={About} />
               <Route path='/login' component={Login} />
               <Route path='/register' component={Register} />
+              <Route path='/event' component={EventPage} />
             </Switch>
           </div>
         </Router>
