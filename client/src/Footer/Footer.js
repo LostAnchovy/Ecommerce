@@ -11,7 +11,7 @@ class FooterPage extends React.Component {
                             <h6 className="title font-weight-bold"><a href="#!">About us</a></h6>
                         </Col>
                         <Col md="2" className="b-3">
-                            <h6 className="title font-weight-bold grey-text"><a href="#!">Merchandise</a></h6>
+                            <h6 className="title font-weight-bold grey-text"><a href="#!">Safety & Responsiblity</a></h6>
                         </Col>
                         <Col md="2" className="b-3">
                             <h6 className="title font-weight-bold grey-text"><a href="#!">Upcoming Events</a></h6>
