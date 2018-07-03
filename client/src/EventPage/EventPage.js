@@ -6,6 +6,7 @@ import Button from "../Button/Button";
 import Sponsor from "../Sponsor/Sponsor";
 import { Col } from 'react-bootstrap';
 class EventPage extends Component {
+    // Need to work on pulling data dynamically
     render() {
         return (
             <div className="container text-center">
